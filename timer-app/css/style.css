@@ -1,0 +1,94 @@
+@import url(./reset.css);
+@import url(./timer-switch.css);
+@import url(./timer-display.css);
+
+body {
+  background-color: #377dff;
+}
+
+.wrapper {
+  max-width: 33em;
+  min-width: 400px;
+  margin: 0px auto;
+  padding: 150px 20px 0px 20px;
+}
+
+.timer {
+  padding: 3.12em 4em;
+  border-radius: 0.5em;
+  background-color: white;
+}
+
+.timer__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#onTrigger {
+  background-color: #377dff;
+  padding: 0.9em 1.8em;
+  border-radius: 2em;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  margin-right: 5px;
+}
+
+#onPause {
+  display: none;
+  background-color: #377dff;
+  padding: 0.9em 1.8em;
+  border-radius: 2em;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  margin: 0px 5px;
+}
+
+#onReset {
+  display: none;
+  background-color: #377dff;
+  padding: 0.9em 1.8em;
+  border-radius: 2em;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 5px;
+}
+
+/*complite window*/
+
+.timer__complete-window {
+  background-color: white;
+  position: fixed;
+  top: -80px;
+  left: calc(50% - 75px);
+  border-radius: 0.5em;
+  padding: 0.4em 1em;
+  text-align: center;
+  transition: all ease 0.3s;
+}
+
+.complete-window__time {
+  font-size: 1em;
+  font-family: "Roboto Mono", monospace;
+  line-height: 28px;
+}
+
+.complete-window__button {
+  background-color: #377dff;
+  padding: 0.3em 1em;
+  border-radius: 2em;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+/*Media*/
+
+@media screen and (max-width: 540px) {
+  .timer {
+    padding: 3.12em 3em;
+  }
+}
+@media screen and (max-width: 470px) {
+  .timer {
+    padding: 3.12em 1em;
+  }
+}
