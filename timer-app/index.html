@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="./images/timer.png" rel="icon" />
+    <title>Timer</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="timer">
+        <div class="timer__complete-window">
+          <div class="complete-window__time">00:00:00:000</div>
+          <button class="complete-window__button">Finish</button>
+        </div>
+        <div class="timer__window"></div>
+        <div class="timer__buttons">
+          <button id="onTrigger">Start</button>
+          <button id="onPause">Pause</button>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,228 @@
+/*switch*/
+
+.timer__switch {
+  padding: 0em 0px 2em 0em;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*hours*/
+
+.timer-time__hours {
+  width: 6.5em;
+
+  position: relative;
+}
+
+.hours__title {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4em;
+  padding-bottom: 0.5em;
+}
+
+.hours-components {
+  width: 100%;
+  height: 9em;
+
+  position: relative;
+  border: 1px solid #c9c9c9;
+  border-radius: 0.3em;
+  overflow: hidden;
+}
+
+.hours-component {
+  width: 3em;
+  height: 2.5em;
+
+  position: absolute;
+  top: calc(50% - 1.25em);
+  left: 5px;
+}
+
+.hours-buttons {
+  width: 1.7em;
+  height: 4em;
+
+  position: absolute;
+  top: calc(50% - 20px);
+  right: 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.hours-button__up {
+  display: block;
+  width: 100%;
+  height: 1.8em;
+  padding: 5px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #377dff;
+}
+
+.up-arrow {
+  background-image: url(../images/up-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1.3em;
+}
+
+.hours-button__down {
+  display: block;
+  width: 100%;
+  height: 1.8em;
+  padding: 5px 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #377dff;
+}
+
+.down-arrow {
+  background-image: url(../images/down-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1.3em;
+}
+
+/*minutes*/
+
+.timer-time__minutes {
+  width: 6.5em;
+
+  margin-left: 10px;
+  position: relative;
+}
+
+.minutes__title {
+  font-size: 1.4em;
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 0.5em;
+}
+
+.minutes-components {
+  width: 100%;
+  height: 9em;
+
+  border-radius: 0.3em;
+  border: 1px solid #c9c9c9;
+  position: relative;
+  overflow: hidden;
+}
+
+.minutes-component {
+  width: 3em;
+  height: 2.5em;
+
+  position: absolute;
+  top: calc(50% - 1.25em);
+  left: 5px;
+}
+
+.minutes-buttons {
+  width: 1.7em;
+  height: 4em;
+
+  position: absolute;
+  top: calc(50% - 20px);
+  right: 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.minutes-button__up {
+  display: block;
+  width: 100%;
+  height: 1.8em;
+  padding: 5px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #377dff;
+}
+
+.minutes-button__down {
+  display: block;
+  width: 100%;
+  height: 1.8em;
+  padding: 5px 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #377dff;
+}
+
+/*seconds*/
+
+.timer-time__seconds {
+  width: 6.5em;
+
+  margin-left: 10px;
+  position: relative;
+}
+
+.seconds__title {
+  font-size: 1.4em;
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 0.5em;
+}
+
+.seconds-components {
+  width: 100%;
+  height: 9em;
+
+  border-radius: 0.3em;
+  border: 1px solid #c9c9c9;
+  position: relative;
+  overflow: hidden;
+}
+
+.seconds-component {
+  width: 3em;
+  height: 2.5em;
+
+  position: absolute;
+  top: calc(50% - 1.25em);
+  left: 5px;
+}
+
+.seconds-buttons {
+  width: 1.7em;
+  height: 4em;
+
+  position: absolute;
+  top: calc(50% - 20px);
+  right: 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.seconds-button__up {
+  display: block;
+  width: 100%;
+  height: 1.8em;
+  padding: 5px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #377dff;
+}
+
+.seconds-button__down {
+  display: block;
+  width: 100%;
+  height: 1.8em;
+  padding: 5px 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #377dff;
+}
+
+/*components*/
+
+.single-component {
+  font-size: 2.5em;
+  position: absolute;
+  transition: all ease 0.3s;
+  left: 0px;
+  font-family: "Roboto Mono", monospace;
+}

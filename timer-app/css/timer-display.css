@@ -1,0 +1,75 @@
+/*Timer Screen*/
+
+.timer__screen {
+  width: 250px;
+  height: 250px;
+  background-color: transparent;
+  margin: 0px auto 50px auto;
+  position: relative;
+  z-index: 1;
+}
+
+.timer__circle {
+  width: 252px;
+  height: 252px;
+  background-color: #dddddd;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 126px);
+  left: calc(50% - 126px);
+  overflow: hidden;
+  z-index: 2;
+}
+
+.timer__circle-one {
+  width: 50%;
+  height: 100%;
+  background-color: #377dff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform-origin: right center;
+  z-index: 5;
+}
+
+.timer__circle-two {
+  width: 50%;
+  height: 100%;
+  background-color: #377dff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform-origin: right center;
+  z-index: 10;
+}
+
+.timer__circle-three {
+  width: 50%;
+  height: 100%;
+  background-color: #dddddd;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 15;
+}
+
+.timer__circle-four {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: calc(50% - 110px);
+  left: calc(50% - 110px);
+  z-index: 20;
+}
+
+.timer__time {
+  font-size: 1.7em;
+  font-family: "Roboto Mono", monospace;
+  position: absolute;
+  top: calc(50% - 13.5px);
+  left: calc(50% - 97px);
+  color: #377dff;
+  z-index: 30;
+}
