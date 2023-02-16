@@ -1,1 +1,3 @@
 # Timer-app
+
+Implemented:
