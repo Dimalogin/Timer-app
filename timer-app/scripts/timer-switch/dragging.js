@@ -14,12 +14,6 @@ export function draggingUp(parent) {
 
   let lastElement = Number(components[4].textContent);
 
-  if (result === "hours") {
-    if (lastElement === 23) {
-      lastElement = -1;
-    }
-  }
-
   if (lastElement === 60) {
     lastElement = -1;
   }
@@ -36,12 +30,6 @@ export function draggingDown(parent) {
   const components = component.querySelectorAll(".single-component");
 
   let firstElement = Number(components[0].textContent);
-
-  if (result === "hours") {
-    if (firstElement === 0) {
-      firstElement = 24;
-    }
-  }
 
   if (firstElement === 0) {
     firstElement = 61;
