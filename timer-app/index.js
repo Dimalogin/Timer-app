@@ -1,3 +1,4 @@
-import { TimerVeiw } from "./scripts/timerView.js";
+import { TimerController } from "./scripts/timerController.js";
 
-new TimerVeiw();
+new TimerController();
+
