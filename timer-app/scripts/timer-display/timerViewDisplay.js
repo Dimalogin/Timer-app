@@ -104,6 +104,7 @@ export class TimerViewDisplay {
       this.showCompleteWindow();
       this.#timerSound.play();
       this.#timerSound.loop = true;
+      this.#onPauseBtn.disabled = true;
     }
   }
 

@@ -1,6 +1,5 @@
 import { TimerViewSwitcher } from "./timer-switch/timerViewSwitcher.js";
-
-import { TimerViewDisplay } from "./timer-display/timerVeiwDisplay.js";
+import { TimerViewDisplay } from "./timer-display/timerViewDisplay.js";
 
 export class TimerModel {
   TimerViewSwitcher = new TimerViewSwitcher();
